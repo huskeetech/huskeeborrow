@@ -1,0 +1,39 @@
+*{
+    /* border:1px solid red; */
+}
+body{
+    margin:0;
+    padding:0;
+}
+.text_small{
+    font-size: 22px;
+}
+.text_big{
+    font-size: 42px;
+}
+.text_semi{
+    font-size: 36px;
+}
+.text_xs{
+    font-size:18px;
+}
+.row-box{
+    width:90%;
+    border:1px solid #cddbe6;
+    background-color: #cddbe6;
+    border-radius: 40px;
+    margin-bottom:60px;
+}
+.row-number{
+    font-size: 150px;
+    color:#fafafa;
+    text-align: right;
+}
+.row-title{
+    font-size:28px;
+    text-align: right;
+}
+.row-text{
+    font-size:22px;
+    text-align: left;
+}

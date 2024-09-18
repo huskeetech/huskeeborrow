@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Boxes with Connecting Line</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+            margin: 50px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 0 20px;
+            position: relative;
+        }
+        .line {
+            width: 2px;
+            background-color: black;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="line"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
