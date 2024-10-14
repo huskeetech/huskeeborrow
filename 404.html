@@ -1,1 +1,21 @@
-TEST 404
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const messageElement = document.querySelector('.u-textAlignCenter');
+        if (window.location.href.includes("https://huskee.co/cup")) {
+            document.body.innerHTML = "<h1>Loading HuskeeBorrow...</h1>";
+            window.location.href = "https://huskeeborrow.co";
+        }
+        else if(window.location.href.includes("https://huskee.co/redirect")){
+            document.body.innerHTML = "<h1>Loading HuskeeBorrow...</h1>";
+            window.location.href = "https://huskeeborrow.co";
+        }
+        else {
+            messageElement.innerHTML = "{{lang 'page_not_found.message'}}";
+        }
+    });
+</script>
+
+        <p class="u-textAlignCenter">
+        </p>
